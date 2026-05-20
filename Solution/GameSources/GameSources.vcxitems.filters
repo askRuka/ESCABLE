@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4b0a624a-610d-4bc6-b311-2b02a781cdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{96692d2a-8790-41a9-bfac-6c5662d4ad61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki">
+      <UniqueIdentifier>{02aea04e-eb79-479e-ac67-4658bd00902c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki">
+      <UniqueIdentifier>{ea7ba59f-294a-4022-9605-b08b77d476cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke">
+      <UniqueIdentifier>{6533c89b-9263-462b-8288-596b7b81279a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki">
+      <UniqueIdentifier>{582a6db1-b5b9-41e9-9938-d9ff5e4013d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Wall">
+      <UniqueIdentifier>{7e5ece9a-3fc7-45d0-bd62-b3670a6f734f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Floor">
+      <UniqueIdentifier>{55a3c14d-f8ec-42ce-b240-a76ac1066fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\MainCamera">
+      <UniqueIdentifier>{8d421256-ecba-4060-b0ae-117338d677a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Player">
+      <UniqueIdentifier>{7f3ce7bb-a1f7-40a8-89eb-48952d7a9619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Concent">
+      <UniqueIdentifier>{61aaa817-ae5f-44f9-8d20-3997c20fc421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\ElectricTrigger">
+      <UniqueIdentifier>{2d59ed75-5f29-4051-8c63-c7184dff8b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Cable">
+      <UniqueIdentifier>{c0f222a3-a3f3-4081-a73a-8a9000f11621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\CableState">
+      <UniqueIdentifier>{8bda8d8e-d85b-46ea-90da-949e40e1dfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\Lift">
+      <UniqueIdentifier>{2e27c55b-93ae-43cb-8c90-9a26fdc03bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\Frame">
+      <UniqueIdentifier>{80a5dd06-be62-42a8-b955-72720a8e42c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\CameraState">
+      <UniqueIdentifier>{74e91c30-fb76-4a8a-a6d0-fff718b9b136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\ButtonSprite">
+      <UniqueIdentifier>{626a225a-2674-4a03-8cce-5835afdeb95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\EnterTitle">
+      <UniqueIdentifier>{a970fc2a-40ca-4884-aed5-4e9c63d44dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\TitleMenu">
+      <UniqueIdentifier>{59f26736-8d42-423b-a51d-e00b16402b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\TitleStage">
+      <UniqueIdentifier>{2805f4b8-8217-4a75-bb79-16cc539f6670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\State">
+      <UniqueIdentifier>{368bb64e-7aa8-4ebb-9084-8a66b439c76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\Pause">
+      <UniqueIdentifier>{16ab00e8-3557-4402-9e60-2d46a6965d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\PauseClosed">
+      <UniqueIdentifier>{cfa4ae36-f85c-4147-aca7-665e03bdd852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\PauseMenu">
+      <UniqueIdentifier>{36ff6a17-fc42-44fc-a492-3d3ff031862a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Door">
+      <UniqueIdentifier>{64284202-e4bb-445a-a635-1aa6efaf0a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\Cannon">
+      <UniqueIdentifier>{56f179bb-e62f-46bf-afeb-bd7b3867375a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Roof">
+      <UniqueIdentifier>{513db1b5-6dab-4a81-a273-cf2d7b2ce407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Piller">
+      <UniqueIdentifier>{2089789e-a4aa-4ebe-b773-0992eef472e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\Laser">
+      <UniqueIdentifier>{561b4c1b-ca40-4a35-a80d-16a932810168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\Launcher">
+      <UniqueIdentifier>{d4af34e4-8787-49d9-8006-5f674029105c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\LaserState">
+      <UniqueIdentifier>{d2fe31f8-8a3e-4fb8-9042-b3a3804dc76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Chackpoint">
+      <UniqueIdentifier>{119319c8-f583-4c84-b180-7c46d80ebfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\Option">
+      <UniqueIdentifier>{60852ba7-06b9-41ab-b21c-3b2145337bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Editor">
+      <UniqueIdentifier>{9d94e448-82d6-4165-aa4c-b083b4269470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\StageLoader">
+      <UniqueIdentifier>{58256cb3-c2f9-4cc2-b9a5-eedcb7cf5019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Arrow">
+      <UniqueIdentifier>{92549e7e-f8df-4a83-8478-2de6c1097a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\Effect">
+      <UniqueIdentifier>{9f2ff251-f239-46b0-b6eb-54c590f387a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tamura_Fuki\Enemy">
+      <UniqueIdentifier>{7b1242ea-41a7-45aa-94a9-315628d5082d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\GameOver">
+      <UniqueIdentifier>{c8f905e8-8945-4dda-a4ea-02730f500c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\GameOver\Gameover">
+      <UniqueIdentifier>{2aae75c5-3bfe-4318-aa43-358a5440bc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\GameOver\GameOverSprite">
+      <UniqueIdentifier>{a3f08b55-3bea-409f-9eac-b50742dd4ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\GameObjectForEdit">
+      <UniqueIdentifier>{e4b71d74-62ff-488f-b271-262741f1cdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\DebugStrMng">
+      <UniqueIdentifier>{97ea4da1-f507-4678-915e-47bc2d615a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uchiyama_Katsuki\Clear">
+      <UniqueIdentifier>{079e9f01-17fd-478d-b512-14d81e95652e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\RayHitCheck">
+      <UniqueIdentifier>{2c879d58-ce96-4bc9-b839-e28a755bebb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sawamura_Syunsuke\SoundMgr">
+      <UniqueIdentifier>{f3d3a216-3162-405e-a4c8-f07fd1f2044c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\EnemyLaser">
+      <UniqueIdentifier>{f4e97fbb-1513-452e-bfa7-03dbbe7ded29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\Enemy2">
+      <UniqueIdentifier>{b4aed734-e26c-43ff-a68d-f9cdb94186f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXModels">
+      <UniqueIdentifier>{eceac7d6-3ec9-45e3-9681-5ab504324387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\CableTip">
+      <UniqueIdentifier>{42728345-5617-49a3-a846-27119a46c35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\SelectScene">
+      <UniqueIdentifier>{80d44e14-49c7-4224-ab03-b73d6c2584d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Furuya_Haruki\ObstacleForCamera">
+      <UniqueIdentifier>{bdf95928-e55c-4f1f-b534-af21effb1862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClearFloor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DXModel.h">
+      <Filter>DXModels</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DXModelResource.h">
+      <Filter>DXModels</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PNTDXModelDraw.h">
+      <Filter>DXModels</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClearObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HowToPlay.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CableTip.h">
+      <Filter>Furuya_Haruki\CableTip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Aura.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Arrow.h">
+      <Filter>Furuya_Haruki\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cable.h">
+      <Filter>Furuya_Haruki\Cable</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CableState.h">
+      <Filter>Furuya_Haruki\CableState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CameraState.h">
+      <Filter>Furuya_Haruki\CameraState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Checkpoint.h">
+      <Filter>Furuya_Haruki\Chackpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DebugStrMng.h">
+      <Filter>Furuya_Haruki\DebugStrMng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Editor.h">
+      <Filter>Furuya_Haruki\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy2.h">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyRouteMaker.h">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyLaser.h">
+      <Filter>Furuya_Haruki\EnemyLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObjectForEdit.h">
+      <Filter>Furuya_Haruki\GameObjectForEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainCamera.h">
+      <Filter>Furuya_Haruki\MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RayHitCheck.h">
+      <Filter>Furuya_Haruki\RayHitCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StageLoader.h">
+      <Filter>Furuya_Haruki\StageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h">
+      <Filter>Furuya_Haruki\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ButtonSprite.h">
+      <Filter>Sawamura_Syunsuke\ButtonSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cannon.h">
+      <Filter>Sawamura_Syunsuke\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Effect.h">
+      <Filter>Sawamura_Syunsuke\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnterTitle.h">
+      <Filter>Sawamura_Syunsuke\EnterTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)LaserState.h">
+      <Filter>Sawamura_Syunsuke\LaserState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Option.h">
+      <Filter>Sawamura_Syunsuke\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pause.h">
+      <Filter>Sawamura_Syunsuke\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseClosed.h">
+      <Filter>Sawamura_Syunsuke\PauseClosed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseMenu.h">
+      <Filter>Sawamura_Syunsuke\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SoundMgr.h">
+      <Filter>Sawamura_Syunsuke\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)State.h">
+      <Filter>Sawamura_Syunsuke\State</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleMenu.h">
+      <Filter>Sawamura_Syunsuke\TitleMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleStage.h">
+      <Filter>Sawamura_Syunsuke\TitleStage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Consent.h">
+      <Filter>Tamura_Fuki\Concent</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Door.h">
+      <Filter>Tamura_Fuki\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ElectricTrigger.h">
+      <Filter>Tamura_Fuki\ElectricTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h">
+      <Filter>Tamura_Fuki\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Floor.h">
+      <Filter>Tamura_Fuki\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Piller.h">
+      <Filter>Tamura_Fuki\Piller</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Roof.h">
+      <Filter>Tamura_Fuki\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Wall.h">
+      <Filter>Tamura_Fuki\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Clear.h">
+      <Filter>Uchiyama_Katsuki\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Frame.h">
+      <Filter>Uchiyama_Katsuki\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Gameover.h">
+      <Filter>Uchiyama_Katsuki\GameOver\Gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameOverSprite.h">
+      <Filter>Uchiyama_Katsuki\GameOver\GameOverSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Laser.h">
+      <Filter>Uchiyama_Katsuki\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Launcher.h">
+      <Filter>Uchiyama_Katsuki\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Lift.h">
+      <Filter>Uchiyama_Katsuki\Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Character.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Project.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectBehavior.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameStage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SelectScene.h">
+      <Filter>Furuya_Haruki\SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Editor.h">
+      <Filter>Furuya_Haruki\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy2.h">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyRouteMaker.h">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyLaser.h">
+      <Filter>Furuya_Haruki\EnemyLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObjectForEdit.h">
+      <Filter>Furuya_Haruki\GameObjectForEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RayHitCheck.h">
+      <Filter>Furuya_Haruki\RayHitCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h">
+      <Filter>Furuya_Haruki\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainCamera.h">
+      <Filter>Furuya_Haruki\MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StageLoader.h">
+      <Filter>Furuya_Haruki\StageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Effect.h">
+      <Filter>Sawamura_Syunsuke\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnterTitle.h">
+      <Filter>Sawamura_Syunsuke\EnterTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)LaserState.h">
+      <Filter>Sawamura_Syunsuke\LaserState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Option.h">
+      <Filter>Sawamura_Syunsuke\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pause.h">
+      <Filter>Sawamura_Syunsuke\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseClosed.h">
+      <Filter>Sawamura_Syunsuke\PauseClosed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseMenu.h">
+      <Filter>Sawamura_Syunsuke\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SoundMgr.h">
+      <Filter>Sawamura_Syunsuke\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)State.h">
+      <Filter>Sawamura_Syunsuke\State</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleMenu.h">
+      <Filter>Sawamura_Syunsuke\TitleMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleStage.h">
+      <Filter>Sawamura_Syunsuke\TitleStage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Consent.h">
+      <Filter>Tamura_Fuki\Concent</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Door.h">
+      <Filter>Tamura_Fuki\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ElectricTrigger.h">
+      <Filter>Tamura_Fuki\ElectricTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h">
+      <Filter>Tamura_Fuki\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Floor.h">
+      <Filter>Tamura_Fuki\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Piller.h">
+      <Filter>Tamura_Fuki\Piller</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Roof.h">
+      <Filter>Tamura_Fuki\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Wall.h">
+      <Filter>Tamura_Fuki\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Frame.h">
+      <Filter>Uchiyama_Katsuki\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Gameover.h">
+      <Filter>Uchiyama_Katsuki\GameOver\Gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameOverSprite.h">
+      <Filter>Uchiyama_Katsuki\GameOver\GameOverSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Laser.h">
+      <Filter>Uchiyama_Katsuki\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Launcher.h">
+      <Filter>Uchiyama_Katsuki\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Lift.h">
+      <Filter>Uchiyama_Katsuki\Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameStage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Project.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectBehavior.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DebugStrMng.h">
+      <Filter>Furuya_Haruki\DebugStrMng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ObstacleForCamera.h">
+      <Filter>Furuya_Haruki\ObstacleForCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cursor.h">
+      <Filter>Furuya_Haruki\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Character.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameStage.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProjectShader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WinMain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProjectBehavior.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Wall.cpp">
+      <Filter>Tamura_Fuki\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Floor.cpp">
+      <Filter>Tamura_Fuki\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MainCamera.cpp">
+      <Filter>Furuya_Haruki\MainCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp">
+      <Filter>Furuya_Haruki\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ElectricTrigger.cpp">
+      <Filter>Tamura_Fuki\ElectricTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cable.cpp">
+      <Filter>Furuya_Haruki\Cable</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CableState.cpp">
+      <Filter>Furuya_Haruki\CableState</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Lift.cpp">
+      <Filter>Uchiyama_Katsuki\Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Consent.cpp">
+      <Filter>Tamura_Fuki\Concent</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Frame.cpp">
+      <Filter>Uchiyama_Katsuki\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CameraState.cpp">
+      <Filter>Furuya_Haruki\CameraState</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ButtonSprite.cpp">
+      <Filter>Sawamura_Syunsuke\ButtonSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnterTitle.cpp">
+      <Filter>Sawamura_Syunsuke\EnterTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleMenu.cpp">
+      <Filter>Sawamura_Syunsuke\TitleMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleStage.cpp">
+      <Filter>Sawamura_Syunsuke\TitleStage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pause.cpp">
+      <Filter>Sawamura_Syunsuke\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PauseClosed.cpp">
+      <Filter>Sawamura_Syunsuke\PauseClosed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PauseMenu.cpp">
+      <Filter>Sawamura_Syunsuke\PauseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Door.cpp">
+      <Filter>Tamura_Fuki\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cannon.cpp">
+      <Filter>Sawamura_Syunsuke\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Roof.cpp">
+      <Filter>Tamura_Fuki\Roof</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Piller.cpp">
+      <Filter>Tamura_Fuki\Piller</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Laser.cpp">
+      <Filter>Uchiyama_Katsuki\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Launcher.cpp">
+      <Filter>Uchiyama_Katsuki\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)LaserState.cpp">
+      <Filter>Sawamura_Syunsuke\LaserState</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Checkpoint.cpp">
+      <Filter>Furuya_Haruki\Chackpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Option.cpp">
+      <Filter>Sawamura_Syunsuke\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Editor.cpp">
+      <Filter>Furuya_Haruki\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)StageLoader.cpp">
+      <Filter>Furuya_Haruki\StageLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Arrow.cpp">
+      <Filter>Furuya_Haruki\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Effect.cpp">
+      <Filter>Sawamura_Syunsuke\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp">
+      <Filter>Tamura_Fuki\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Gameover.cpp">
+      <Filter>Uchiyama_Katsuki\GameOver\Gameover</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameOverSprite.cpp">
+      <Filter>Uchiyama_Katsuki\GameOver\GameOverSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObjectForEdit.cpp">
+      <Filter>Furuya_Haruki\GameObjectForEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DebugStrMng.cpp">
+      <Filter>Furuya_Haruki\DebugStrMng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Clear.cpp">
+      <Filter>Uchiyama_Katsuki\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RayHitCheck.cpp">
+      <Filter>Furuya_Haruki\RayHitCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SoundMgr.cpp">
+      <Filter>Sawamura_Syunsuke\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyLaser.cpp">
+      <Filter>Furuya_Haruki\EnemyLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy2.cpp">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyRounteMaker.cpp">
+      <Filter>Furuya_Haruki\Enemy2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClearFloor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DXModel.cpp">
+      <Filter>DXModels</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DXModelResource.cpp">
+      <Filter>DXModels</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PNTDXModelDraw.cpp">
+      <Filter>DXModels</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClearObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)HowToPlay.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CableTip.cpp">
+      <Filter>Furuya_Haruki\CableTip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Aura.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Clear.cpp">
+      <Filter>Uchiyama_Katsuki\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SelectScene.cpp">
+      <Filter>Furuya_Haruki\SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ObstacleForCamera.cpp">
+      <Filter>Furuya_Haruki\ObstacleForCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cursor.cpp">
+      <Filter>Furuya_Haruki\Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

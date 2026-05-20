@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8C1D084C-C178-4A5D-84D5-9D8B94E39AB0}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Arrow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Aura.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ButtonSprite.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CableState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CableTip.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CameraState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cannon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Checkpoint.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Character.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Clear.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClearFloor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClearObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cursor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DebugStrMng.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Door.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DXModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DXModelResource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Editor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Effect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyLaser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyRouteMaker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnterTitle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Consent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ElectricTrigger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Floor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Frame.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObjectForEdit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Gameover.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameOverSprite.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HowToPlay.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Laser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Launcher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LaserState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Lift.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ObstacleForCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Option.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pause.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseClosed.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PauseMenu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Piller.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PNTDXModelDraw.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Project.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectBehavior.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProjectShader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RayHitCheck.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Roof.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SelectScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SoundMgr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StageLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleMenu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TitleStage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)State.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Wall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Arrow.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Aura.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ButtonSprite.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CableState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CableTip.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CameraState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cannon.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Character.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Checkpoint.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Clear.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClearFloor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClearObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cursor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DebugStrMng.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Door.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DXModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DXModelResource.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Editor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Effect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy2.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyLaser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyRounteMaker.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnterTitle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Consent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ElectricTrigger.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Floor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Frame.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObjectForEdit.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Gameover.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameOverSprite.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)HowToPlay.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Laser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Launcher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LaserState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Lift.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MainCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ObstacleForCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Option.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pause.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PauseClosed.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PauseMenu.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Piller.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PNTDXModelDraw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProjectBehavior.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProjectShader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RayHitCheck.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Roof.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SelectScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SoundMgr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StageLoader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleMenu.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TitleStage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Wall.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WinMain.cpp" />
+  </ItemGroup>
+</Project>
